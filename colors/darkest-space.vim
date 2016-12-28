@@ -1,9 +1,9 @@
-" Darkest Space 
-"
-" Author:    Szorfein <szorfein@gmail.com>
-" Version:   1.1
-" License:   MIT
-"
+" darkest-space.vim
+" Darkest Space - Colorscheme
+" Author:  Szorfein <szorfein@gmail.com>
+" Version: 1.0
+" License: MIT
+" Webpage: https://github.com/szorfein
 
 if version > 580
     hi clear
@@ -19,27 +19,26 @@ let g:colors_name = 'darkest-space'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Normal
 
-" Green (108,152)
+" Green (107,108,152)
 hi Delimiter ctermfg=108 ctermbg=none cterm=bold
 hi Statement ctermfg=108 ctermbg=none cterm=none
 hi Directory ctermfg=108 ctermbg=none cterm=bold
 hi Operator ctermfg=152 ctermbg=none cterm=none
 hi Boolean ctermfg=108 ctermbg=none cterm=bold
+hi PreProc ctermfg=107 ctermbg=none cterm=none
 " Yellow (223)
 hi Number ctermfg=223 ctermbg=none cterm=bold
 " Orange (210,217)
-
 " Red ()
-
-" Magenta (13,96,97)
+" Magenta (13,96,97,132)
 hi Normal ctermfg=13 ctermbg=none cterm=none
 hi Identifier ctermfg=96 ctermbg=none cterm=none
+hi Type ctermfg=132 cterm=none
 " Grey (247,249)
 hi LineNr ctermfg=247 ctermbg=0 cterm=none
 hi Comment ctermfg=247 ctermbg=0 cterm=italic
-hi String ctermfg=249 ctermbg=none cterm=none
+hi String ctermfg=253 ctermbg=none cterm=none
 " Brown (138,144)
-hi PreProc ctermfg=138 ctermbg=none cterm=none
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Shell Linux
@@ -47,6 +46,12 @@ hi PreProc ctermfg=138 ctermbg=none cterm=none
 hi shOperator ctermfg=108 ctermbg=none cterm=bold
 hi shStatement ctermfg=168 ctermbg=none cterm=none
 hi shLoop ctermfg=108 ctermbg=none cterm=none
-hi shShellVariables ctermfg=246 ctermbg=none cterm=bold
+hi shShellVariables ctermfg=224 ctermbg=none cterm=none
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" VimL
+
+hi vimGroup ctermfg=247 ctermbg=none cterm=bold
+hi vimHiAttrib ctermfg=151 ctermbg=none cterm=none
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
