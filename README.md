@@ -1,12 +1,13 @@
 # darkest-space
 Colorscheme darker for vim
+
 ## Preview
 
-
+![last screen](https://raw.githubusercontent.com/szorfein/darkest-space/master/screenshot.jpg "screenshot")
 
 ## Installation
 
-To install this colorscheme, you have vundle or pathogen.
+To install this colorscheme, you have choose between vundle or pathogen.
 * Vundle:
     
     Plugin 'szorfein/darkest-space'
@@ -19,9 +20,18 @@ To install this colorscheme, you have vundle or pathogen.
     cd ~/.vim/bundle
     git clone https://github.com/szorfein/darkest-space
 
+## Configuration
+
+Edit vimrc
+
+    vim ~/.vimrc
+    
+    syntax on
+    colorscheme darkest-space
+
 ## Support language.
 
-* Very soon:
+Very soon:
 
 + HTML
 + CSS 
@@ -31,7 +41,7 @@ To install this colorscheme, you have vundle or pathogen.
 + Zsh
 + Typescript with Meteor and Angular2
 
-* In future:
+In future:
 
 + Python
 + Ruby
