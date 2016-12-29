@@ -1,5 +1,6 @@
 " darkest-space.vim
 " Darkest Space - Colorscheme
+
 " Author:  Szorfein <szorfein@gmail.com>
 " Version: 1.0
 " License: MIT
@@ -26,6 +27,7 @@ hi Directory ctermfg=108 ctermbg=none cterm=bold
 hi Operator ctermfg=152 ctermbg=none cterm=none
 hi Boolean ctermfg=108 ctermbg=none cterm=bold
 hi PreProc ctermfg=107 ctermbg=none cterm=none
+hi Character ctermfg=108 ctermbg=none cterm=bold
 " Yellow (223)
 hi Number ctermfg=223 ctermbg=none cterm=bold
 " Orange (210,217)
@@ -46,12 +48,28 @@ hi String ctermfg=253 ctermbg=none cterm=none
 hi shOperator ctermfg=108 ctermbg=none cterm=bold
 hi shStatement ctermfg=168 ctermbg=none cterm=none
 hi shLoop ctermfg=108 ctermbg=none cterm=none
-hi shShellVariables ctermfg=224 ctermbg=none cterm=none
+"You can change -> shShellVariables can be: 181,217,223,224
+hi shShellVariables ctermfg=223 ctermbg=none cterm=none
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " VimL
 
 hi vimGroup ctermfg=247 ctermbg=none cterm=bold
 hi vimHiAttrib ctermfg=151 ctermbg=none cterm=none
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Typescript
+
+hi typescriptBraces ctermfg=108 ctermbg=none cterm=bold
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" HTML
+
+hi htmlTag ctermfg=108 ctermbg=none cterm=bold
+hi htmlEndTag ctermfg=108 ctermbg=none cterm=bold
+hi htmlTagName ctermfg=132 ctermbg=none cterm=none
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" SASS
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
