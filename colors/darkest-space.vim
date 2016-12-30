@@ -36,10 +36,11 @@ hi Number ctermfg=223 ctermbg=none cterm=bold
 hi Normal ctermfg=13 ctermbg=none cterm=none
 hi Identifier ctermfg=96 ctermbg=none cterm=none
 hi Type ctermfg=132 cterm=none
-" Grey (247,249)
+" Grey (247,249,251)
 hi LineNr ctermfg=247 ctermbg=0 cterm=none
 hi Comment ctermfg=247 ctermbg=0 cterm=italic
 hi String ctermfg=253 ctermbg=none cterm=none
+hi Folded ctermfg=251 ctermbg=0 cterm=none
 " Brown (138,144)
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -70,6 +71,19 @@ hi htmlEndTag ctermfg=108 ctermbg=none cterm=bold
 hi htmlTagName ctermfg=132 ctermbg=none cterm=none
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" SASS
+" SASS - CSS
+
+hi sassProperty ctermfg=108 ctermbg=none cterm=bold 
+hi cssBraces ctermfg=108 ctermbg=none cterm=bold
+hi sassClass ctermfg=223 ctermbg=none cterm=none
+hi cssTagName ctermfg=168 ctermbg=none cterm=none
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" JSON
+
+hi jsonNoise ctermfg=white ctermbg=none cterm=bold
+hi jsonQuote ctermfg=108 ctermbg=none cterm=bold
+hi jsonKeywordMatch ctermfg=223 ctermbg=none cterm=bold
+hi jsonKeyword ctermfg=132 ctermbg=none cterm=none
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
