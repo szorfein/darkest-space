@@ -20,7 +20,7 @@ let g:colors_name = 'darkest-space'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Normal
 
-" Green (107,108,145,152)
+" Green (107,108,145,152,187)
 hi Delimiter ctermfg=108 ctermbg=none cterm=bold
 hi Statement ctermfg=108 ctermbg=none cterm=none
 hi Directory ctermfg=108 ctermbg=none cterm=bold
@@ -44,9 +44,6 @@ hi String ctermfg=253 ctermbg=none cterm=none
 hi Folded ctermfg=251 ctermbg=0 cterm=none
 " Brown (138,144)
 hi Label ctermfg=138 ctermbg=none cterm=none
-" NEW
-"hi Constant ctermfg=223 ctermbg=none cterm=none
-"hi Special ctermfg=224 ctermbg=none cterm=none
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Shell Linux
@@ -54,7 +51,8 @@ hi Label ctermfg=138 ctermbg=none cterm=none
 hi shOperator ctermfg=108 ctermbg=none cterm=bold
 hi shStatement ctermfg=145 ctermbg=none cterm=none
 hi shLoop ctermfg=108 ctermbg=none cterm=none
-hi shDeref ctermfg=139 ctermbg=none cterm=none
+" shDeref you can test -> 96,132,139,144,145,151,186,187,211,216,217,218,223,224,225,229,230
+hi shDeref ctermfg=152 ctermbg=none cterm=none
 hi shShellVariables ctermfg=108 ctermbg=none cterm=bold
 hi shSetList ctermfg=132 ctermbg=none cterm=none
 
