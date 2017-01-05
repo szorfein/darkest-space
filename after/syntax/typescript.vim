@@ -2,7 +2,7 @@ syn keyword angularComponent selector template styles
 syn keyword angularRxjsSubscription subscribe unsubscribe
 syn keyword mongoOperator \$set \$and \$or \$nin \$ne
 syn keyword mongoPrototype update insert find findOne
-syn keyword angularType Subscription Observable
+syn keyword angularType Subscription Observable FormGroup
 
 hi def link angularComponent jsonKeyword
 hi def link angularRxjsSubscription Keyword

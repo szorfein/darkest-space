@@ -29,10 +29,13 @@ hi Boolean ctermfg=108 ctermbg=none cterm=bold
 hi PreProc ctermfg=107 ctermbg=none cterm=none
 hi Character ctermfg=108 ctermbg=none cterm=bold
 hi Keyword ctermfg=108 ctermbg=none cterm=none
-" Yellow (223)
+" Yellow (223,224)
+hi Constant ctermfg=224 ctermbg=none cterm=none
 hi Number ctermfg=223 ctermbg=none cterm=bold
+hi Function ctermfg=223 ctermbg=none cterm=none
 " Orange (210,217)
-" Red ()
+" Red (168,169)
+hi Todo ctermfg=168 ctermbg=1 cterm=none
 " Magenta (13,96,97,132,139)
 hi Normal ctermfg=13 ctermbg=none cterm=none
 hi Identifier ctermfg=96 ctermbg=none cterm=none
@@ -51,7 +54,7 @@ hi Label ctermfg=138 ctermbg=none cterm=none
 hi shOperator ctermfg=108 ctermbg=none cterm=bold
 hi shStatement ctermfg=145 ctermbg=none cterm=none
 hi shLoop ctermfg=108 ctermbg=none cterm=none
-" shDeref you can test -> 96,132,139,144,145,151,186,187,211,216,217,218,223,224,225,229,230
+" shDeref you can test -> 96,132,139,144,145,151,152,186,187,211,216,217,218,223,224,225,229,230
 hi shDeref ctermfg=152 ctermbg=none cterm=none
 hi shShellVariables ctermfg=108 ctermbg=none cterm=bold
 hi shSetList ctermfg=132 ctermbg=none cterm=none
@@ -95,3 +98,6 @@ hi jsonKeywordMatch ctermfg=223 ctermbg=none cterm=none
 hi jsonKeyword ctermfg=132 ctermbg=none cterm=none
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Xresource
+
+hi xdefaultsPunct ctermfg=247 ctermbg=none cterm=bold

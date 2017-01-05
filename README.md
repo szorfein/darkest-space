@@ -31,18 +31,18 @@ Edit vimrc
 
 ## Support language.
 
-Very soon:
+Actualy supported:
 
 + HTML
 + CSS 
 + SASS
 + Markdown
 + Shell Linux
-+ Zsh
 + Typescript with Meteor and Angular2
 
 In future:
 
++ Zsh
 + Python
 + Ruby
 + C
