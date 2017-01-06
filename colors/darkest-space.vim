@@ -29,10 +29,10 @@ hi Boolean ctermfg=108 ctermbg=none cterm=bold
 hi PreProc ctermfg=107 ctermbg=none cterm=none
 hi Character ctermfg=108 ctermbg=none cterm=bold
 hi Keyword ctermfg=108 ctermbg=none cterm=none
-" Yellow (223,224)
+hi Function ctermfg=152 ctermbg=none cterm=none
+" Yellow (223,224,230)
 hi Constant ctermfg=224 ctermbg=none cterm=none
 hi Number ctermfg=223 ctermbg=none cterm=bold
-hi Function ctermfg=223 ctermbg=none cterm=none
 " Orange (210,217)
 " Red (168,169)
 hi Todo ctermfg=168 ctermbg=1 cterm=none
@@ -54,8 +54,8 @@ hi Label ctermfg=138 ctermbg=none cterm=none
 hi shOperator ctermfg=108 ctermbg=none cterm=bold
 hi shStatement ctermfg=145 ctermbg=none cterm=none
 hi shLoop ctermfg=108 ctermbg=none cterm=none
-" shDeref you can test -> 96,132,139,144,145,151,152,186,187,211,216,217,218,223,224,225,229,230
-hi shDeref ctermfg=152 ctermbg=none cterm=none
+" shDeref you can test -> 187,223,224,230
+hi shDeref ctermfg=230 ctermbg=none cterm=none
 hi shShellVariables ctermfg=108 ctermbg=none cterm=bold
 hi shSetList ctermfg=132 ctermbg=none cterm=none
 
