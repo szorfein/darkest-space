@@ -20,7 +20,7 @@ let g:colors_name = 'darkest-space'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Normal
 
-" Green (107,108,145,152,187)
+" Green (107,108)
 hi Delimiter ctermfg=108 ctermbg=none cterm=bold guifg=#84ab7e guibg=NONE gui=bold
 hi Statement ctermfg=108 ctermbg=none cterm=none guifg=#84ab7e guibg=NONE gui=NONE
 hi Directory ctermfg=108 ctermbg=none cterm=bold guifg=#84ab7e guibg=NONE gui=bold
@@ -29,13 +29,16 @@ hi Boolean ctermfg=108 ctermbg=none cterm=bold guifg=#84ab7e guibg=NONE gui=bold
 hi PreProc ctermfg=107 ctermbg=none cterm=none
 hi Character ctermfg=108 ctermbg=none cterm=bold guifg=#84ab7e guibg=NONE gui=bold
 hi Keyword ctermfg=108 ctermbg=none cterm=none guifg=#84ab7e guibg=NONE gui=NONE
+" Blue (109,152,153)
+hi Include ctermfg=109 ctermbg=none cterm=none
 hi Function ctermfg=152 ctermbg=none cterm=none
-" Yellow (223,224,230)
+" Yellow (187,223,224,230)
 hi Constant ctermfg=224 ctermbg=none cterm=none
 hi Number ctermfg=223 ctermbg=none cterm=bold
 " Orange (210,217)
 " Red (168,169)
 hi Todo ctermfg=168 ctermbg=1 cterm=none
+hi Exception ctermfg=168 ctermbg=none cterm=none
 " Magenta (13,96,97,132,139)
 hi Normal ctermfg=13 ctermbg=none cterm=none
 hi Identifier ctermfg=96 ctermbg=none cterm=none
@@ -45,7 +48,7 @@ hi LineNr ctermfg=247 ctermbg=0 cterm=none
 hi Comment ctermfg=247 ctermbg=0 cterm=italic
 hi String ctermfg=253 ctermbg=none cterm=none
 hi Folded ctermfg=251 ctermbg=0 cterm=none
-" Brown (138,144)
+" Brown (138,144,145)
 hi Label ctermfg=138 ctermbg=none cterm=none
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -101,3 +104,12 @@ hi jsonKeyword ctermfg=132 ctermbg=none cterm=none
 " Xresource
 
 hi xdefaultsPunct ctermfg=247 ctermbg=none cterm=bold
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Python
+
+hi pythonBuiltin ctermfg=145 ctermbg=none cterm=none
+hi pythonOperator ctermfg=108 ctermbg=none cterm=none
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
