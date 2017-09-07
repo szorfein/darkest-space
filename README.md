@@ -7,7 +7,14 @@ Colorscheme darker for vim
 
 ## Installation
 
-To install this colorscheme, you have choose between vundle or pathogen.
+### typescript
+
++ if you use typescript, you will need install [typescript-vim](https://github.com/leafgarland/typescript-vim)
+
+To install this colorscheme, you have choose between 
+[Vundle](https://github.com/gmarik/vundle) or
+[Pathogen](https://github.com/tpope/vim-pathogen/).
+
 * Vundle:
     
     Plugin 'szorfein/darkest-space'
@@ -19,6 +26,7 @@ To install this colorscheme, you have choose between vundle or pathogen.
     mkdir -p ~/.vim/bundle
     cd ~/.vim/bundle
     git clone https://github.com/szorfein/darkest-space
+
 
 ## Configuration
 

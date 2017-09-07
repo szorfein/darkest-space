@@ -10,7 +10,11 @@ syn keyword meteorKeyword Meteor check
 syn keyword meteorPrototype publish methods call isServer isPublic userId
 syn keyword javascriptKeyword console log new require
 syn keyword typescriptKeyword Set 
+syn match typescriptFunc /\S\+\:?/
+syn match typescriptVar /\h\+\s\+/
 
+hi def link typescriptVar Type
+hi def link typescriptFunc Label    
 hi def link angularComponent jsonKeyword
 hi def link angularRxjsSubscription Keyword
 hi def link mongoOperator Operator
