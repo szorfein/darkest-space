@@ -44,7 +44,7 @@ hi Normal ctermfg=253 ctermbg=none cterm=none
 hi Identifier ctermfg=005 ctermbg=none cterm=none
 hi Type ctermfg=013 cterm=none
 " Grey (247,249,251)
-hi LineNr ctermfg=247 ctermbg=0 cterm=none
+hi LineNr ctermfg=007 ctermbg=none cterm=none guifg=#bdb8c1 guibg=NONE gui=NONE
 hi Comment ctermfg=247 ctermbg=0 cterm=italic
 hi String ctermfg=253 ctermbg=none cterm=none
 hi Folded ctermfg=251 ctermbg=0 cterm=none
