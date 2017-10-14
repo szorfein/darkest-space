@@ -44,10 +44,12 @@ hi Normal ctermfg=253 ctermbg=none cterm=none
 hi Identifier ctermfg=005 ctermbg=none cterm=none
 hi Type ctermfg=013 cterm=none
 " Grey (247,249,251)
+"hi LineNr ctermfg=007 ctermbg=none cterm=none
 hi LineNr ctermfg=007 ctermbg=none cterm=none guifg=#bdb8c1 guibg=NONE gui=NONE
 hi Comment ctermfg=247 ctermbg=0 cterm=italic
-hi String ctermfg=253 ctermbg=none cterm=none
+hi String ctermfg=252 ctermbg=none cterm=none
 hi Folded ctermfg=251 ctermbg=0 cterm=none
+hi Visual term=reverse ctermbg=0 gui=none
 " Brown (138,144,145)
 hi Label ctermfg=138 ctermbg=none cterm=none
 
@@ -123,3 +125,32 @@ hi xdefaultsPunct ctermfg=247 ctermbg=none cterm=bold
 hi pythonOperator ctermfg=002 ctermbg=none cterm=none
 " Yellow
 hi pythonBuiltin ctermfg=003 ctermbg=none cterm=none
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Markdown
+hi markdownValid ctermfg=005 ctermbg=none cterm=none
+hi markdownLineStart ctermfg=006 ctermbg=none cterm=none
+hi markdownCodeBlock ctermfg=014 ctermbg=none cterm=none
+hi htmlValue ctermfg=002 ctermbg=none cterm=none
+hi htmlPreAttr ctermfg=004 ctermbg=none cterm=none 
+hi htmlBold ctermfg=003 ctermbg=none cterm=bold
+hi markdownItalic ctermfg=006 ctermbg=none cterm=italic
+hi markdownLineBreak ctermfg=012 ctermbg=none cterm=italic
+hi markdownCode ctermfg=005 ctermbg=none cterm=italic
+hi markdownLinkText ctermfg=013 ctermbg=none cterm=bold
+hi markdownH1 ctermfg=015 ctermbg=none cterm=bold
+hi markdownH2 ctermfg=015 ctermbg=none cterm=bold
+hi markdownH3 ctermfg=015 ctermbg=none cterm=bold
+hi markdownBlockquote ctermfg=001 ctermbg=000 cterm=italic
+hi markdownUrl ctermfg=012 ctermbg=000 cterm=none
+" markdown symbol
+hi markdownUrlDelimiter ctermfg=002 ctermbg=none cterm=bold
+hi markdownUrlTitleDelimiter ctermfg=002 ctermbg=none cterm=bold
+hi markdownBoldDelimiter ctermfg=002 ctermbg=none cterm=bold
+hi markdownBoldItalicDelimiter ctermfg=002 ctermbg=none cterm=bold
+hi markdownItalicDelimiter ctermfg=002 ctermbg=none cterm=bold
+hi markdownIdDelimiter ctermfg=002 ctermbg=none cterm=bold
+hi markdownCodeDelimiter ctermfg=002 ctermbg=none cterm=bold
+hi markdownListMarker ctermfg=002 ctermbg=none cterm=bold
+hi markdownLinkTextDelimiter ctermbg=002 ctermbg=none cterm=bold
+hi markdownLinkDelimiter ctermbg=002 ctermbg=none cterm=bold
