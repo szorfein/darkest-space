@@ -79,7 +79,41 @@ hi vimHiAttrib ctermfg=012 ctermbg=none cterm=none
 
 " Green
 hi typescriptBraces ctermfg=002 ctermbg=none cterm=bold guifg=#84ab7e guibg=NONE gui=bold
-hi typescriptIdentifier ctermfg=010 ctermbg=none cterm=none
+hi typescriptBracket ctermfg=010 ctermbg=none cterm=bold 
+hi typescriptBlock ctermfg=010 ctermbg=none cterm=bold
+
+" Blue
+hi typescriptPropietaryMethods ctermfg=012 ctermbg=none cterm=none
+hi typescriptEventListenerMethods ctermfg=012 ctermbg=none cterm=none
+hi typescriptHtmlEvents ctermfg=012 ctermbg=none cterm=none
+
+hi typescriptSource ctermfg=012 ctermbg=none cterm=none
+hi typescriptFuncArg ctermfg=012 ctermbg=none cterm=none
+
+hi typescriptFunc ctermfg=012 ctermbg=none cterm=none
+hi typescriptAjaxProperties ctermfg=012 ctermbg=none cterm=none
+hi typescriptHtmlElemProperties ctermfg=012 ctermbg=none cterm=none
+" Magenta
+hi typescriptSpecial ctermfg=013 ctermbg=none cterm=none
+hi typescriptDocTags ctermfg=013 ctermbg=none cterm=none
+hi typescriptDecorators ctermfg=013 ctermbg=none cterm=none
+hi typescriptDOMProperties ctermfg=013 ctermbg=none cterm=none
+hi typescriptIdentifier ctermfg=013 ctermbg=none cterm=bold
+hi typescriptVar ctermfg=013 ctermbg=none cterm=none
+hi angularRxjsComponent ctermfg=013 ctermbg=none cterm=bold 
+
+" Yellow
+hi typescriptInterface ctermfg=007 ctermfg=none cterm=none
+hi typescriptNumber ctermfg=012 ctermfg=none cterm=bold
+
+hi typescriptCommentSkip ctermfg=001 ctermbg=1 cterm=none
+" Cyan
+hi typescriptRef ctermfg=014 ctermbg=none cterm=none
+hi typescriptRefD ctermfg=014 ctermbg=none cterm=none
+hi typescriptRefS ctermfg=014 ctermbg=none cterm=none
+hi typescriptStringD ctermfg=014 ctermbg=none cterm=bold
+hi typescriptStringS ctermfg=014 ctermbg=none cterm=bold
+hi typescriptStringB ctermfg=014 ctermbg=none cterm=bold
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " HTML
@@ -137,7 +171,7 @@ hi htmlBold ctermfg=003 ctermbg=none cterm=bold
 hi markdownItalic ctermfg=006 ctermbg=none cterm=italic
 hi markdownLineBreak ctermfg=012 ctermbg=none cterm=italic
 hi markdownCode ctermfg=005 ctermbg=none cterm=italic
-hi markdownLinkText ctermfg=013 ctermbg=none cterm=bold
+hi markdownLinkText ctermfg=012 ctermbg=none cterm=bold
 hi markdownH1 ctermfg=015 ctermbg=none cterm=bold
 hi markdownH2 ctermfg=015 ctermbg=none cterm=bold
 hi markdownH3 ctermfg=015 ctermbg=none cterm=bold
