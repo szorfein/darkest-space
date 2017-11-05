@@ -103,17 +103,18 @@ hi typescriptVar ctermfg=013 ctermbg=none cterm=none
 hi angularRxjsComponent ctermfg=013 ctermbg=none cterm=bold 
 
 " Yellow
-hi typescriptInterface ctermfg=007 ctermfg=none cterm=none
-hi typescriptNumber ctermfg=012 ctermfg=none cterm=bold
+hi typescriptInterface ctermfg=011 ctermfg=none cterm=none
+hi typescriptNumber ctermfg=011 ctermfg=none cterm=bold
 
 hi typescriptCommentSkip ctermfg=001 ctermbg=1 cterm=none
 " Cyan
 hi typescriptRef ctermfg=014 ctermbg=none cterm=none
 hi typescriptRefD ctermfg=014 ctermbg=none cterm=none
 hi typescriptRefS ctermfg=014 ctermbg=none cterm=none
-hi typescriptStringD ctermfg=014 ctermbg=none cterm=bold
-hi typescriptStringS ctermfg=014 ctermbg=none cterm=bold
-hi typescriptStringB ctermfg=014 ctermbg=none cterm=bold
+" White
+hi typescriptStringD ctermfg=007 ctermbg=none cterm=italic
+hi typescriptStringS ctermfg=007 ctermbg=none cterm=italic
+hi typescriptStringB ctermfg=007 ctermbg=none cterm=italic
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " HTML
@@ -122,7 +123,7 @@ hi typescriptStringB ctermfg=014 ctermbg=none cterm=bold
 hi Title ctermfg=012 ctermbg=none cterm=bold guibg=NONE gui=bold
 hi htmlTag ctermfg=002 ctermbg=none cterm=bold guibg=NONE gui=bold
 hi htmlEndTag ctermfg=002 ctermbg=none cterm=bold guibg=NONE gui=bold
-hi htmlTagName ctermfg=002 ctermbg=none cterm=none
+hi htmlTagName ctermfg=004 ctermbg=none cterm=none
 hi htmlLink ctermfg=009 ctermbg=none cterm=none
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -141,11 +142,15 @@ hi cssColor ctermfg=247 ctermbg=none cterm=bold
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " JSON
 
-hi jsonNoise ctermfg=white ctermbg=none cterm=bold 
 " Green
+hi jsonBraces ctermfg=002 ctermbg=none cterm=bold
 hi jsonQuote ctermfg=006 ctermbg=none cterm=bold guibg=NONE gui=bold
-hi jsonKeywordMatch ctermfg=223 ctermbg=none cterm=none
-hi jsonKeyword ctermfg=132 ctermbg=none cterm=none
+hi jsonNoise ctermfg=015 ctermbg=none cterm=bold 
+hi jsonKeywordMatch ctermfg=015 ctermbg=none cterm=none
+hi jsonKeyword ctermfg=005 ctermbg=none cterm=bold
+hi jsonString ctermfg=007 ctermbg=none cterm=italic
+hi jsonNumber ctermfg=011 ctermbg=none cterm=bold
+hi jsonBoolean ctermfg=002 ctermbg=none cterm=bold
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Xresource
@@ -188,3 +193,13 @@ hi markdownCodeDelimiter ctermfg=002 ctermbg=none cterm=bold
 hi markdownListMarker ctermfg=002 ctermbg=none cterm=bold
 hi markdownLinkTextDelimiter ctermbg=002 ctermbg=none cterm=bold
 hi markdownLinkDelimiter ctermbg=002 ctermbg=none cterm=bold
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" NERDTree
+
+" Red
+hi VertSplit ctermfg=001 ctermbg=none cterm=none
+" Cyan
+hi StatusLine ctermfg=014 ctermbg=000 cterm=none
+hi StatusLineNC ctermfg=014 ctermbg=000 cterm=none
+
