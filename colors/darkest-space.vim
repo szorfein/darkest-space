@@ -53,6 +53,8 @@ hi Visual term=reverse ctermbg=0 gui=none
 " Brown (138,144,145)
 hi Label ctermfg=138 ctermbg=none cterm=none
 
+hi Visual ctermfg=1 ctermbg=none cterm=none
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Shell Linux
 
@@ -202,4 +204,5 @@ hi VertSplit ctermfg=001 ctermbg=none cterm=none
 " Cyan
 hi StatusLine ctermfg=014 ctermbg=000 cterm=none
 hi StatusLineNC ctermfg=014 ctermbg=000 cterm=none
-
+hi NERDTreeDir ctermfg=1 ctermbg=none cterm=bold
+hi NERDTreeCWD ctermfg=011 ctermbg=none cterm=bold
