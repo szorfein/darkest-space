@@ -49,11 +49,9 @@ hi LineNr ctermfg=007 ctermbg=none cterm=none guifg=#bdb8c1 guibg=NONE gui=NONE
 hi Comment ctermfg=247 ctermbg=0 cterm=italic
 hi String ctermfg=252 ctermbg=none cterm=none
 hi Folded ctermfg=251 ctermbg=0 cterm=none
-hi Visual term=reverse ctermbg=0 gui=none
+hi Visual ctermfg=007 ctermbg=000 cterm=none gui=none
 " Brown (138,144,145)
 hi Label ctermfg=138 ctermbg=none cterm=none
-
-hi Visual ctermfg=1 ctermbg=none cterm=none
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Shell Linux
