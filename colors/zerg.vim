@@ -92,8 +92,14 @@ endfunction
 " blue:         12,66,102,146,145,243
 " magenta:      4,7,12,15,59,96,138,245
 " cyan:         14,29,72
-" white:        230,252,194
+" white:        230,231,252,194
 
+call s:hi('htmlH1' , '231', '', 'None', 'None')
+call s:hi('markdownCodeBlock' , '102', '', 'None', 'None')
+call s:hi('markdownCode' , '138', '', 'None', 'None')
+call s:hi('markdownUrl' , '72', '8', 'None', 'None')
+call s:hi('htmlLink' , '146', '', 'None', 'None')
+call s:hi('htmlString' , '174', '', 'None', 'None')
 call s:hi('vimGroup' , '14', '', 'None', 'None')
 call s:hi('CursorLine' , '252', '', 'None', 'None')
 call s:hi('VertSplit' , 13, '', 'None', 'None')
