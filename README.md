@@ -22,19 +22,22 @@ To install this colorscheme, choose between
 [Vundle](https://github.com/gmarik/vundle) or
 [Pathogen](https://github.com/tpope/vim-pathogen/).
 
-* Vundle:
-    
-    $ vim ~/.vimrc
-      Plugin 'szorfein/darkest-space'
+* Vundle, edit `~/.vimrc`:
 
-And run:
+```
+ Plugin 'szorfein/darkest-space'
+```
+And run into vim
 
     :PluginInstall
 
 * Pathogen:
 
-    $ mkdir -p ~/.vim/bundle && cd ~/.vim/bundle
-    $ git clone https://github.com/szorfein/darkest-space
+```
+$ mkdir -p ~/.vim/bundle
+$ cd ~/.vim/bundle
+$ git clone https://github.com/szorfein/darkest-space
+```
 
 ## Configuration
 
