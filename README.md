@@ -1,7 +1,10 @@
 # darkest-space
 
 Dark colorscheme for vim, takes colors from `.Xresources`. For a better integration, you may try to include theses [colors](https://github.com/szorfein/dotfiles/tree/master/.colors).  
+
 Darkest-space use contrast between green|cyan and purple.
+
+This repo include a colorscheme in BETA called `zerg.vim`, i try to reduce dependencies to `.Xresources`.
 
 <!--
 Palettes:
@@ -10,10 +13,6 @@ Palettes:
  <img src="http://www.colorhexa.com/e0e0e0.png" height="24" width="42" /> e0e0e0
  <img src="http://www.colorhexa.com/e0e0e0.png" height="24" width="42" /> e0e0e0
  -->
-
-## Preview
-
-![last screen](https://raw.githubusercontent.com/szorfein/darkest-space/master/screenshot.jpg "screenshot")
 
 ## Installation
 
@@ -39,27 +38,19 @@ And run:
 
 ## Configuration
 
-Edit vimrc
+Edit `~/.vimrc`:
 
-    $ vim ~/.vimrc
-      syntax on
-      colorscheme darkest-space
+```
+syntax on
+colorscheme darkest-space
+```
 
-## Support language.
+If you want test the BETA colorscheme.
 
-Actualy supported:
+```
+colorscheme zerg
+```
 
-+ HTML
-+ CSS 
-+ SASS
-+ Markdown
-+ Shell Linux
-+ Typescript with Meteor and Angular2
+## Preview (BETA)
 
-In future:
-
-+ Zsh
-+ Python
-+ Ruby
-+ C
-
+![last screen](https://raw.githubusercontent.com/szorfein/darkest-space/master/screenshot.jpg "screenshot")

@@ -88,12 +88,23 @@ endfunction
 " grey:         240,241
 " red:          5,13,95,131,137,173,174
 " yellow:       193,223,229
-" green:        10,29,108,150
-" blue:         12,66,102,146,145,243
-" magenta:      4,7,12,15,59,96,138,245
-" cyan:         14,29,72
+" green:        10,29,108,109,150
+" blue:         12,66,102,103,146,145,243
+" magenta:      4,7,12,15,59,95,96,138,245
+" cyan:         14,72,78
 " white:        230,231,252,194
 
+call s:hi('pythonEscape' , 102, '', 'None', 'None')
+call s:hi('Identifier' , 72, '', 'None', 'None')
+call s:hi('xdefaultsLabel' , 108, '', 'None', 'None')
+call s:hi('Type' , 243, '', 'None', 'None')
+call s:hi('shDeref' , 244, '', 'bold', 'bold')
+call s:hi('pythonQuotes' , 193, '', 'None', 'None')
+call s:hi('Function' , 103, '', 'None', 'None')
+call s:hi('Boolean' , 194, '', 'None', 'None')
+call s:hi('jsonKeyword' , 72, '', 'None', 'None')
+call s:hi('typescriptBraces' , 108, '', 'bold', 'bold')
+call s:hi('Keyword' , '108', '', 'None', 'None')
 call s:hi('htmlH1' , '231', '', 'None', 'None')
 call s:hi('markdownCodeBlock' , '102', '', 'None', 'None')
 call s:hi('markdownCode' , '138', '', 'None', 'None')
@@ -114,12 +125,10 @@ call s:hi('NERDTreeDir' , 5, '', 'bold', 'bold')
 call s:hi('NERDTreeFile' , 6, '', 'bold', 'bold')
 call s:hi('StatusLine' , 152, 8, 'None', 'None')
 call s:hi('StatusLineNC' , 152, 8, 'None', 'None')
-call s:hi('Type' , 248, '', 'None', 'None')
 call s:hi('Number' , 193, '', 'None', 'None')
 call s:hi('Special' , 252, '', 'None', 'None')
 call s:hi('Constant' , 223, '', 'None', 'None')
 call s:hi('Normal' , 254, '', 'None', 'None')
-call s:hi('Function' , 243, '', 'None', 'None')
 call s:hi('Operator' , 194, '', 'bold', 'bold')
 call s:hi('Delimiter' , 194, '', 'bold', 'bold')
 call s:hi('Statement' , 108, '', 'None', 'None')
