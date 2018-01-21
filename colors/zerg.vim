@@ -85,50 +85,62 @@ endfunction
 
 " foreground:   230
 " background:   8
-" grey:         240,241
-" red:          5,13,95,131,137,173,174
-" yellow:       193,223,229
-" green:        10,29,108,109,150
-" blue:         12,66,102,103,146,145,243
-" magenta:      4,7,12,15,59,95,96,138,245
-" cyan:         14,72,78
-" white:        230,231,252,194
+" grey:         59,60,240,241,244
+" red:          95,131,137,138,173,174,182,203,204
+" yellow:       193,194,217,223,224,228,229
+" green:        29,35,42,85,86,108,115,121,150,157
+" blue:         24,60,61,66,103,109,146,145,243
+" magenta:      59,60,96,102,145,146,161,225,245
+" cyan:         23,29,30,72,73,78,79,115
+" white:        151,188,230,231,252,194
 
-call s:hi('pythonEscape' , 102, '', 'None', 'None')
-call s:hi('Identifier' , 72, '', 'None', 'None')
-call s:hi('xdefaultsLabel' , 108, '', 'None', 'None')
-call s:hi('Type' , 243, '', 'None', 'None')
-call s:hi('shDeref' , 244, '', 'bold', 'bold')
-call s:hi('pythonQuotes' , 193, '', 'None', 'None')
-call s:hi('Function' , 103, '', 'None', 'None')
+call s:hi('angular2HTML' , 61, '', 'None', 'None')
 call s:hi('Boolean' , 194, '', 'None', 'None')
-call s:hi('jsonKeyword' , 72, '', 'None', 'None')
-call s:hi('typescriptBraces' , 108, '', 'bold', 'bold')
-call s:hi('Keyword' , '108', '', 'None', 'None')
+call s:hi('cIncluded' , 61, '', 'None', 'None')
+call s:hi('Comment' , 102, '', 'italic', 'italic')
+call s:hi('Conditional' , 79, '', 'None', 'None')
+call s:hi('Constant' , 231, '', 'None', 'None')
+call s:hi('CursorLine' , '252', '', 'None', 'None')
+call s:hi('cssBraces' , 108, '', 'None', 'None')
+call s:hi('Delimiter' , 194, '', 'bold', 'bold')
+call s:hi('Folded' , 152, 8, 'None', 'None')
+call s:hi('FoldColumn' , 152, 8, 'None', 'None')
+call s:hi('Function' , 79, '', 'None', 'None')
+call s:hi('htmlArg' , 146, '', 'None', 'None')
 call s:hi('htmlH1' , '231', '', 'None', 'None')
+call s:hi('htmlLink' , '146', '', 'None', 'None')
+call s:hi('htmlString' , '96', '', 'None', 'None')
+call s:hi('Identifier' , 109, '', 'None', 'None')
+call s:hi('jsonKeyword' , 73, '', 'None', 'None')
+call s:hi('Keyword' , '108', '', 'None', 'None')
+"call s:hi('LineNr' , 36, '', 'None', 'None')
+call s:hi('LineNr' , 24, '', 'None', 'None')
 call s:hi('markdownCodeBlock' , '102', '', 'None', 'None')
 call s:hi('markdownCode' , '138', '', 'None', 'None')
 call s:hi('markdownUrl' , '72', '8', 'None', 'None')
-call s:hi('htmlLink' , '146', '', 'None', 'None')
-call s:hi('htmlString' , '174', '', 'None', 'None')
-call s:hi('vimGroup' , '14', '', 'None', 'None')
-call s:hi('CursorLine' , '252', '', 'None', 'None')
-call s:hi('VertSplit' , 13, '', 'None', 'None')
-call s:hi('PreProc' , 7, '', 'None', 'None')
-call s:hi('Folded' , 152, 8, 'None', 'None')
-call s:hi('FoldColumn' , 152, 8, 'None', 'None')
-call s:hi('String' , 230, '', 'italic', 'italic')
-call s:hi('Visual' , 152, 8, 'None', 'None')
-call s:hi('Comment' , 102, '', 'italic', 'italic')
-call s:hi('LineNr' , 145, '', 'None', 'None')
 call s:hi('NERDTreeDir' , 5, '', 'bold', 'bold')
 call s:hi('NERDTreeFile' , 6, '', 'bold', 'bold')
+call s:hi('Normal' , 15, '', 'None', 'None')
+call s:hi('Number' , 193, '', 'None', 'None')
+call s:hi('Operator' , 157, '', 'None', 'None')
+call s:hi('PreProc' , 121, '', 'None', 'None')
+call s:hi('pythonQuotes' , 193, '', 'None', 'None')
+call s:hi('pythonEscape' , 102, '', 'None', 'None')
+call s:hi('Repeat' , 79, '', 'None', 'None')
+call s:hi('shDeref' , 60, '', 'None', 'None')
+call s:hi('Special' , 96, '', 'None', 'None')
+call s:hi('Statement' , 30, '', 'None', 'None')
 call s:hi('StatusLine' , 152, 8, 'None', 'None')
 call s:hi('StatusLineNC' , 152, 8, 'None', 'None')
-call s:hi('Number' , 193, '', 'None', 'None')
-call s:hi('Special' , 252, '', 'None', 'None')
-call s:hi('Constant' , 223, '', 'None', 'None')
-call s:hi('Normal' , 254, '', 'None', 'None')
-call s:hi('Operator' , 194, '', 'bold', 'bold')
-call s:hi('Delimiter' , 194, '', 'bold', 'bold')
-call s:hi('Statement' , 108, '', 'None', 'None')
+call s:hi('String' , 229, '', 'italic', 'italic')
+call s:hi('symbol' , 157, '', 'None', 'None')
+call s:hi('Type' , 243, '', 'None', 'None')
+call s:hi('typescriptBraces' , 108, '', 'bold', 'bold')
+call s:hi('VertSplit' , 13, '', 'None', 'None')
+call s:hi('vimGroup' , '14', '', 'None', 'None')
+call s:hi('Visual' , 152, 8, 'None', 'None')
+call s:hi('xdefaultsLabel' , 108, '', 'None', 'None')
+call s:hi('zshDeref' , 60, '', 'None', 'None')
+call s:hi('zshVariable' , 109, '', 'None', 'None')
+call s:hi('xdefaultsLabel' , 30, '', 'None', 'None')
+call s:hi('xdefaultsPunct' , 159, '', 'None', 'None')
