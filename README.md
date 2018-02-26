@@ -54,6 +54,10 @@ If you want test the BETA colorscheme.
 colorscheme zerg
 ```
 
+## Customize
+
+Edit colorscheme of your choice and change Normal value, i use an orange `216` in screen bellow.
+
 ## Preview (BETA)
 
 ![last screen](https://raw.githubusercontent.com/szorfein/darkest-space/master/screenshot.jpg "screenshot")

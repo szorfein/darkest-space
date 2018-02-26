@@ -86,47 +86,93 @@ endfunction
 " foreground:   230
 " background:   8
 " grey:         59,60,240,241,244
-" red:          95,131,137,138,173,174,182,203,204
-" yellow:       193,194,217,223,224,228,229
+" red:          95,131,137,138,173,174,182,203,204,216
+" yellow:       185,186,193,194,217,222,223,224,228,229
 " green:        29,35,42,85,86,108,115,121,150,157
-" blue:         24,60,61,66,103,109,146,145,243
-" magenta:      59,60,96,102,145,146,161,225,245
-" cyan:         23,29,30,72,73,78,79,115
+" blue:         24,31,60,61,66,81,103,109,146,145,243
+" magenta:      61,96,102,145,146,161,225,245
+" cyan:         23,29,30,72,73,78,79,86,115
 " white:        151,188,230,231,252,194
 
+" normal Green
+" call s:hi('Normal' , 114, '', 'None', 'None')
+" Normal Magenta
+" call s:hi('Normal' , 132, '', 'None', 'None')
+" Normal Blue
+" call s:hi('Normal' , 147, '', 'None', 'None')
+" normal Red
+"call s:hi('Normal' , 188, '', 'None', 'None')
+" Normal Cyan
+"call s:hi('Normal' , 194, '', 'None', 'None')
+" Normal Orange | 216 | 210
+call s:hi('Normal' , 216, '', 'None', 'None')
 call s:hi('angular2HTML' , 61, '', 'None', 'None')
+call s:hi('angularType' , 97, '', 'None', 'None')
 call s:hi('Boolean' , 194, '', 'None', 'None')
 call s:hi('cIncluded' , 61, '', 'None', 'None')
-call s:hi('Comment' , 102, '', 'italic', 'italic')
+call s:hi('Comment' , 31, '', 'italic', 'italic')
 call s:hi('Conditional' , 79, '', 'None', 'None')
 call s:hi('Constant' , 231, '', 'None', 'None')
-call s:hi('CursorLine' , '252', '', 'None', 'None')
+call s:hi('cssAttr', '61', '', 'None', 'None')
 call s:hi('cssBraces' , 108, '', 'None', 'None')
+call s:hi('cssProp', '30', '', 'None', 'None')
+call s:hi('cssTagName', '81', '', 'None', 'None')
+call s:hi('CursorLine' , '252', '', 'None', 'None')
 call s:hi('Delimiter' , 194, '', 'bold', 'bold')
+call s:hi('EbuildFunctions' , 79, '', 'None', 'None')
+call s:hi('EbuildCoreKeyword' , 30, '', 'None', 'None')
+call s:hi('Error' , 186, '131', 'None', 'None')
+call s:hi('ErrorMsg' , 230, '131', 'None', 'None')
 call s:hi('Folded' , 152, 8, 'None', 'None')
 call s:hi('FoldColumn' , 152, 8, 'None', 'None')
 call s:hi('Function' , 79, '', 'None', 'None')
 call s:hi('htmlArg' , 146, '', 'None', 'None')
-call s:hi('htmlH1' , '231', '', 'None', 'None')
+call s:hi('htmlBold' , '', '', 'Bold', 'Bold')
+call s:hi('htmlH1' , '231', '', 'Bold', 'Bold')
+call s:hi('htmlH2' , '230', '', 'Bold', 'Bold')
+call s:hi('htmlH3' , '229', '', 'None', 'None')
+call s:hi('htmlItalic' , '', '', 'Italic', 'Italic')
 call s:hi('htmlLink' , '146', '', 'None', 'None')
 call s:hi('htmlString' , '96', '', 'None', 'None')
-call s:hi('Identifier' , 109, '', 'None', 'None')
+call s:hi('Identifier' , 116, '', 'None', 'None')
+call s:hi('javascriptKeyword' , 30, '', 'None', 'None')
 call s:hi('jsonKeyword' , 73, '', 'None', 'None')
-call s:hi('Keyword' , '108', '', 'None', 'None')
-"call s:hi('LineNr' , 36, '', 'None', 'None')
+call s:hi('Keyword' , '109', '', 'None', 'None')
 call s:hi('LineNr' , 24, '', 'None', 'None')
-call s:hi('markdownCodeBlock' , '102', '', 'None', 'None')
-call s:hi('markdownCode' , '138', '', 'None', 'None')
-call s:hi('markdownUrl' , '72', '8', 'None', 'None')
+call s:hi('markdownCode' , 225, '', 'None', 'None')
+call s:hi('markdownCodeBlock' , 97, '', 'None', 'None')
+call s:hi('markdownLinkDelimiter' , 108, '', 'bold', 'bold')
+call s:hi('markdownLinkTextDelimiter' , 109, '', 'bold', 'bold')
+call s:hi('markdownUrl' , 30, '', 'none', 'none')
+call s:hi('markdownLineStart' , 115, '', 'none', 'none')
 call s:hi('NERDTreeDir' , 5, '', 'bold', 'bold')
 call s:hi('NERDTreeFile' , 6, '', 'bold', 'bold')
-call s:hi('Normal' , 15, '', 'None', 'None')
+call s:hi('Noise', '109', '', 'None', 'None')
 call s:hi('Number' , 193, '', 'None', 'None')
 call s:hi('Operator' , 157, '', 'None', 'None')
 call s:hi('PreProc' , 121, '', 'None', 'None')
-call s:hi('pythonQuotes' , 193, '', 'None', 'None')
+call s:hi('pythonBuiltin' , 30, '', 'None', 'None')
 call s:hi('pythonEscape' , 102, '', 'None', 'None')
+call s:hi('pythonQuotes' , 121, '', 'None', 'None')
+call s:hi('pythonString' , 229, '', 'None', 'None')
 call s:hi('Repeat' , 79, '', 'None', 'None')
+call s:hi('rubyArrayDelimiter' , 108, '', 'Bold', 'Bold')
+call s:hi('rubyBeginEnd', 121, '', 'None', 'None')
+call s:hi('rubyConditionalExpression' , 60, '', 'None', 'None')
+call s:hi('rubyConstant' , 80, '', 'None', 'None')
+call s:hi('rubyControl', 121, '', 'None', 'None')
+call s:hi('rubyCurlyBlockDelimiter' , 115, '', 'Bold', 'Bold')
+call s:hi('rubyDoBlock' , 96, '', 'None', 'None')
+call s:hi('rubyIdentifier', 23, '', 'Bold', 'Bold')
+call s:hi('rubyInterpolation' , 60, '', 'None', 'None')
+call s:hi('rubyInterpolationDelimiter' , 115, '', 'None', 'None')
+call s:hi('rubySharpBang', 31, '', 'None', 'None')
+call s:hi('sassControlLine', '81', '', 'None', 'None')
+call s:hi('sassClass', '79', '', 'None', 'None')
+call s:hi('sassCssAttribute', '121', '', 'None', 'None')
+call s:hi('sassDefinition', '109', '', 'Bold', 'Bold')
+call s:hi('sassProperty', '121', '', 'None', 'None')
+call s:hi('shColon' , '109', '', 'None', 'None')
 call s:hi('shDeref' , 60, '', 'None', 'None')
 call s:hi('Special' , 96, '', 'None', 'None')
 call s:hi('Statement' , 30, '', 'None', 'None')
@@ -136,6 +182,8 @@ call s:hi('String' , 229, '', 'italic', 'italic')
 call s:hi('symbol' , 157, '', 'None', 'None')
 call s:hi('Type' , 243, '', 'None', 'None')
 call s:hi('typescriptBraces' , 108, '', 'bold', 'bold')
+call s:hi('typescriptReserved' , 23, '', 'Bold', 'Bold')
+call s:hi('typescriptVar' , 60, '', 'None', 'None')
 call s:hi('VertSplit' , 13, '', 'None', 'None')
 call s:hi('vimGroup' , '14', '', 'None', 'None')
 call s:hi('Visual' , 152, 8, 'None', 'None')
