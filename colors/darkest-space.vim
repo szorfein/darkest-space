@@ -1,206 +1,95 @@
-" darkest-space.vim
-" Darkest Space - Colorscheme
-
-" Author:  Szorfein <szorfein@gmail.com>
-" Version: 1.0
+" Vim color file - darkest-space
+"
+" Author: Szorfein <szorfein@gmail.com
+" Version: 2.0
 " License: MIT
-" Webpage: https://github.com/szorfein
-
-if version > 580
-    hi clear
-    if exists('syntax_on')
-        syntax reset
-    endif
-endif
+" Webpage: https://github.com/szorfein/darkest-space
 
 set background=dark
+if version > 580
+	hi clear
+	if exists("syntax_on")
+		syntax reset
+	endif
+endif
+
 set t_Co=256
-let g:colors_name = 'darkest-space'
+let g:colors_name = "darkest-space"
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Normal
-
-" Green
-hi Delimiter ctermfg=002 ctermbg=none cterm=bold guibg=NONE gui=bold
-hi Statement ctermfg=010 ctermbg=none cterm=none guibg=NONE gui=NONE
-hi Directory ctermfg=002 ctermbg=none cterm=bold guibg=NONE gui=bold
-hi Operator ctermfg=010 ctermbg=none cterm=none
-hi Boolean ctermfg=002 ctermbg=none cterm=bold guibg=NONE gui=bold
-hi PreProc ctermfg=010 ctermbg=none cterm=none
-hi Character ctermfg=002 ctermbg=none cterm=bold guibg=NONE gui=bold
-hi Keyword ctermfg=002 ctermbg=none cterm=none guibg=NONE gui=NONE
-" Blue
-hi Include ctermfg=012 ctermbg=none cterm=none
-hi Function ctermfg=012 ctermbg=none cterm=none
-" Yellow
-hi Constant ctermfg=003 ctermbg=none cterm=none
-hi Number ctermfg=011 ctermbg=none cterm=bold
-" Orange (210,217)
-" Red
-hi Todo ctermfg=001 ctermbg=1 cterm=none
-hi Exception ctermfg=009 ctermbg=none cterm=none
-" Magenta
-hi Normal ctermfg=253 ctermbg=none cterm=none
-hi Identifier ctermfg=005 ctermbg=none cterm=none
-hi Type ctermfg=013 cterm=none
-" Grey (247,249,251)
-"hi LineNr ctermfg=007 ctermbg=none cterm=none
-hi LineNr ctermfg=007 ctermbg=none cterm=none guifg=#bdb8c1 guibg=NONE gui=NONE
-hi Comment ctermfg=247 ctermbg=0 cterm=italic
-hi String ctermfg=252 ctermbg=none cterm=none
-hi Folded ctermfg=251 ctermbg=0 cterm=none
-hi Visual ctermfg=007 ctermbg=000 cterm=none gui=none
-" Brown (138,144,145)
-hi Label ctermfg=138 ctermbg=none cterm=none
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Shell Linux
-
-" Green
-hi shOperator ctermfg=002 ctermbg=none cterm=bold guibg=NONE gui=bold
-hi shLoop ctermfg=010 ctermbg=none cterm=none guibg=NONE gui=NONE
-hi shShellVariables ctermfg=010 ctermbg=none cterm=bold guibg=NONE gui=bold
-" Yellow 
-hi shStatement ctermfg=011 ctermbg=none cterm=none
-" shDeref you can test -> 187,223,224,230
-hi shDeref ctermfg=230 ctermbg=none cterm=none
-" Magenta
-hi shSetList ctermfg=013 ctermbg=none cterm=none
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" VimL
-
-hi vimGroup ctermfg=247 ctermbg=none cterm=bold
-" Blue
-hi vimHiAttrib ctermfg=012 ctermbg=none cterm=none
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Typescript
-
-" Green
-hi typescriptBraces ctermfg=002 ctermbg=none cterm=bold guifg=#84ab7e guibg=NONE gui=bold
-hi typescriptBracket ctermfg=010 ctermbg=none cterm=bold 
-hi typescriptBlock ctermfg=010 ctermbg=none cterm=bold
-
-" Blue
-hi typescriptPropietaryMethods ctermfg=012 ctermbg=none cterm=none
-hi typescriptEventListenerMethods ctermfg=012 ctermbg=none cterm=none
-hi typescriptHtmlEvents ctermfg=012 ctermbg=none cterm=none
-
-hi typescriptSource ctermfg=012 ctermbg=none cterm=none
-hi typescriptFuncArg ctermfg=012 ctermbg=none cterm=none
-
-hi typescriptFunc ctermfg=012 ctermbg=none cterm=none
-hi typescriptAjaxProperties ctermfg=012 ctermbg=none cterm=none
-hi typescriptHtmlElemProperties ctermfg=012 ctermbg=none cterm=none
-" Magenta
-hi typescriptSpecial ctermfg=013 ctermbg=none cterm=none
-hi typescriptDocTags ctermfg=013 ctermbg=none cterm=none
-hi typescriptDecorators ctermfg=013 ctermbg=none cterm=none
-hi typescriptDOMProperties ctermfg=013 ctermbg=none cterm=none
-hi typescriptIdentifier ctermfg=013 ctermbg=none cterm=bold
-hi typescriptVar ctermfg=013 ctermbg=none cterm=none
-hi angularRxjsComponent ctermfg=013 ctermbg=none cterm=bold 
-
-" Yellow
-hi typescriptInterface ctermfg=011 ctermfg=none cterm=none
-hi typescriptNumber ctermfg=011 ctermfg=none cterm=bold
-
-hi typescriptCommentSkip ctermfg=001 ctermbg=1 cterm=none
-" Cyan
-hi typescriptRef ctermfg=014 ctermbg=none cterm=none
-hi typescriptRefD ctermfg=014 ctermbg=none cterm=none
-hi typescriptRefS ctermfg=014 ctermbg=none cterm=none
-" White
-hi typescriptStringD ctermfg=007 ctermbg=none cterm=italic
-hi typescriptStringS ctermfg=007 ctermbg=none cterm=italic
-hi typescriptStringB ctermfg=007 ctermbg=none cterm=italic
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" HTML
-
-" Green
-hi Title ctermfg=012 ctermbg=none cterm=bold guibg=NONE gui=bold
-hi htmlTag ctermfg=002 ctermbg=none cterm=bold guibg=NONE gui=bold
-hi htmlEndTag ctermfg=002 ctermbg=none cterm=bold guibg=NONE gui=bold
-hi htmlTagName ctermfg=004 ctermbg=none cterm=none
-hi htmlLink ctermfg=009 ctermbg=none cterm=none
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" SASS - CSS
-
-" Green
-hi sassProperty ctermfg=002 ctermbg=none cterm=bold guibg=NONE gui=bold
-hi cssBraces ctermfg=002 ctermbg=none cterm=bold guibg=NONE gui=bold
-hi sassClass ctermfg=010 ctermbg=none cterm=none
-hi cssNoise ctermfg=010 ctermbg=none cterm=bold guibg=NONE gui=bold
-" Magenta
-hi cssTagName ctermfg=013 ctermbg=none cterm=none
-hi cssAttr ctermfg=224 ctermbg=none cterm=none
-hi cssColor ctermfg=247 ctermbg=none cterm=bold
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" JSON
-
-" Green
-hi jsonBraces ctermfg=002 ctermbg=none cterm=bold
-hi jsonQuote ctermfg=006 ctermbg=none cterm=bold guibg=NONE gui=bold
-hi jsonNoise ctermfg=015 ctermbg=none cterm=bold 
-hi jsonKeywordMatch ctermfg=015 ctermbg=none cterm=none
-hi jsonKeyword ctermfg=005 ctermbg=none cterm=bold
-hi jsonString ctermfg=007 ctermbg=none cterm=italic
-hi jsonNumber ctermfg=011 ctermbg=none cterm=bold
-hi jsonBoolean ctermfg=002 ctermbg=none cterm=bold
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Xresource
-
-hi xdefaultsPunct ctermfg=247 ctermbg=none cterm=bold
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Python
-
-" Green
-hi pythonOperator ctermfg=002 ctermbg=none cterm=none
-" Yellow
-hi pythonBuiltin ctermfg=003 ctermbg=none cterm=none
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Markdown
-hi markdownValid ctermfg=005 ctermbg=none cterm=none
-hi markdownLineStart ctermfg=006 ctermbg=none cterm=none
-hi markdownCodeBlock ctermfg=014 ctermbg=none cterm=none
-hi htmlValue ctermfg=002 ctermbg=none cterm=none
-hi htmlPreAttr ctermfg=004 ctermbg=none cterm=none 
-hi htmlBold ctermfg=003 ctermbg=none cterm=bold
-hi markdownItalic ctermfg=006 ctermbg=none cterm=italic
-hi markdownLineBreak ctermfg=012 ctermbg=none cterm=italic
-hi markdownCode ctermfg=005 ctermbg=none cterm=italic
-hi markdownLinkText ctermfg=012 ctermbg=none cterm=bold
-hi markdownH1 ctermfg=015 ctermbg=none cterm=bold
-hi markdownH2 ctermfg=015 ctermbg=none cterm=bold
-hi markdownH3 ctermfg=015 ctermbg=none cterm=bold
-hi markdownBlockquote ctermfg=001 ctermbg=000 cterm=italic
-hi markdownUrl ctermfg=012 ctermbg=000 cterm=none
-" markdown symbol
-hi markdownUrlDelimiter ctermfg=002 ctermbg=none cterm=bold
-hi markdownUrlTitleDelimiter ctermfg=002 ctermbg=none cterm=bold
-hi markdownBoldDelimiter ctermfg=002 ctermbg=none cterm=bold
-hi markdownBoldItalicDelimiter ctermfg=002 ctermbg=none cterm=bold
-hi markdownItalicDelimiter ctermfg=002 ctermbg=none cterm=bold
-hi markdownIdDelimiter ctermfg=002 ctermbg=none cterm=bold
-hi markdownCodeDelimiter ctermfg=002 ctermbg=none cterm=bold
-hi markdownListMarker ctermfg=002 ctermbg=none cterm=bold
-hi markdownLinkTextDelimiter ctermbg=002 ctermbg=none cterm=bold
-hi markdownLinkDelimiter ctermbg=002 ctermbg=none cterm=bold
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" NERDTree
-
-" Red
-hi VertSplit ctermfg=001 ctermbg=none cterm=none
-" Cyan
-hi StatusLine ctermfg=014 ctermbg=000 cterm=none
-hi StatusLineNC ctermfg=014 ctermbg=000 cterm=none
-hi NERDTreeDir ctermfg=1 ctermbg=none cterm=bold
-hi NERDTreeCWD ctermfg=011 ctermbg=none cterm=bold
+hi Normal guifg=#e8deb7 guibg=#262626 guisp=#262626 gui=NONE ctermfg=187 ctermbg=235 cterm=NONE
+hi IncSearch guifg=#333218 guibg=#799e6a guisp=#799e6a gui=NONE ctermfg=236 ctermbg=65 cterm=NONE
+hi WildMenu guifg=NONE guibg=#A1A6A8 guisp=#A1A6A8 gui=NONE ctermfg=NONE ctermbg=248 cterm=NONE
+hi SignColumn guifg=#192224 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
+hi SpecialComment guifg=#5498cc guibg=NONE guisp=NONE gui=NONE ctermfg=74 ctermbg=NONE cterm=NONE
+hi Typedef guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
+hi Title guifg=#739e73 guibg=NONE guisp=NONE gui=bold ctermfg=108 ctermbg=NONE cterm=bold
+hi Folded guifg=#192224 guibg=#A1A6A8 guisp=#A1A6A8 gui=italic ctermfg=235 ctermbg=248 cterm=NONE
+hi PreCondit guifg=#68a879 guibg=NONE guisp=NONE gui=NONE ctermfg=72 ctermbg=NONE cterm=NONE
+hi Include guifg=#875faf guibg=NONE guisp=NONE gui=NONE ctermfg=97 ctermbg=NONE cterm=NONE
+hi Float guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
+hi StatusLineNC guifg=#1b282b guibg=#5faf87 guisp=#5faf87 gui=bold ctermfg=235 ctermbg=72 cterm=bold
+hi NonText guifg=#5E6C70 guibg=NONE guisp=NONE gui=italic ctermfg=66 ctermbg=NONE cterm=NONE
+hi DiffText guifg=#e7e8c7 guibg=#6b424c guisp=#6b424c gui=NONE ctermfg=187 ctermbg=95 cterm=NONE
+hi ErrorMsg guifg=#f5f5c9 guibg=#5f005f guisp=#5f005f gui=NONE ctermfg=230 ctermbg=53 cterm=NONE
+hi Debug guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
+hi PMenuSbar guifg=NONE guibg=#848688 guisp=#848688 gui=NONE ctermfg=NONE ctermbg=102 cterm=NONE
+hi Identifier guifg=#875f87 guibg=NONE guisp=NONE gui=NONE ctermfg=96 ctermbg=NONE cterm=NONE
+hi SpecialChar guifg=#de88ca guibg=NONE guisp=NONE gui=NONE ctermfg=176 ctermbg=NONE cterm=NONE
+hi Conditional guifg=#5f8787 guibg=NONE guisp=NONE gui=bold ctermfg=66 ctermbg=NONE cterm=bold
+hi StorageClass guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
+hi Todo guifg=#d5ed21 guibg=#6b0c4a guisp=#6b0c4a gui=NONE ctermfg=190 ctermbg=53 cterm=NONE
+hi Special guifg=#74de95 guibg=NONE guisp=NONE gui=NONE ctermfg=78 ctermbg=NONE cterm=NONE
+hi LineNr guifg=#5c5563 guibg=NONE guisp=NONE gui=NONE ctermfg=241 ctermbg=NONE cterm=NONE
+hi StatusLine guifg=#291929 guibg=#6e556e guisp=#6e556e gui=bold,italic ctermfg=235 ctermbg=242 cterm=bold
+hi Label guifg=#b05a5a guibg=NONE guisp=NONE gui=bold ctermfg=131 ctermbg=NONE cterm=bold
+hi PMenuSel guifg=#192224 guibg=#8f8a74 guisp=#8f8a74 gui=NONE ctermfg=235 ctermbg=101 cterm=NONE
+hi Search guifg=#f5fc24 guibg=#592961 guisp=#592961 gui=NONE ctermfg=11 ctermbg=53 cterm=NONE
+hi Delimiter guifg=#87afaf guibg=NONE guisp=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE
+hi Statement guifg=#87af5f guibg=NONE guisp=NONE gui=bold ctermfg=107 ctermbg=NONE cterm=bold
+hi SpellRare guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
+hi Comment guifg=#518f8f guibg=NONE guisp=NONE gui=italic ctermfg=66 ctermbg=NONE cterm=NONE
+hi Character guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
+hi TabLineSel guifg=#192224 guibg=#4e964e guisp=#4e964e gui=bold ctermfg=235 ctermbg=71 cterm=bold
+hi Number guifg=#ffffaf guibg=NONE guisp=NONE gui=NONE ctermfg=229 ctermbg=NONE cterm=NONE
+hi Boolean guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
+hi Operator guifg=#448555 guibg=NONE guisp=NONE gui=bold ctermfg=65 ctermbg=NONE cterm=bold
+hi CursorLine guifg=NONE guibg=#222E30 guisp=#222E30 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
+hi TabLineFill guifg=#192224 guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=235 ctermbg=66 cterm=bold
+hi WarningMsg guifg=#ffff87 guibg=#87005f guisp=#87005f gui=NONE ctermfg=228 ctermbg=89 cterm=NONE
+hi VisualNOS guifg=#192224 guibg=#F9F9FF guisp=#F9F9FF gui=underline ctermfg=235 ctermbg=189 cterm=underline
+hi DiffDelete guifg=NONE guibg=#192224 guisp=#192224 gui=NONE ctermfg=NONE ctermbg=235 cterm=NONE
+hi ModeMsg guifg=#e3a8e3 guibg=#192224 guisp=#192224 gui=bold ctermfg=182 ctermbg=235 cterm=bold
+hi CursorColumn guifg=NONE guibg=#222E30 guisp=#222E30 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
+hi Define guifg=#8e2cc7 guibg=NONE guisp=NONE gui=NONE ctermfg=5 ctermbg=NONE cterm=NONE
+hi Function guifg=#d75f87 guibg=NONE guisp=NONE gui=NONE ctermfg=168 ctermbg=NONE cterm=NONE
+hi FoldColumn guifg=#192224 guibg=#A1A6A8 guisp=#A1A6A8 gui=italic ctermfg=235 ctermbg=248 cterm=NONE
+hi PreProc guifg=#b3a1b3 guibg=NONE guisp=NONE gui=NONE ctermfg=115 ctermbg=NONE cterm=NONE
+hi Visual guifg=#192224 guibg=#F9F9FF guisp=#F9F9FF gui=NONE ctermfg=235 ctermbg=189 cterm=NONE
+hi MoreMsg guifg=#abe386 guibg=NONE guisp=NONE gui=bold ctermfg=150 ctermbg=NONE cterm=bold
+hi SpellCap guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
+hi VertSplit guifg=#e2eb61 guibg=#3e6e45 guisp=#3e6e45 gui=bold ctermfg=185 ctermbg=65 cterm=bold
+hi Exception guifg=#96b39c guibg=NONE guisp=NONE gui=bold ctermfg=108 ctermbg=NONE cterm=bold
+hi Keyword guifg=#d1d198 guibg=NONE guisp=NONE gui=bold ctermfg=187 ctermbg=NONE cterm=bold
+hi Type guifg=#875f87 guibg=NONE guisp=NONE gui=bold ctermfg=96 ctermbg=NONE cterm=bold
+hi DiffChange guifg=#c9a7c9 guibg=#382e34 guisp=#382e34 gui=NONE ctermfg=182 ctermbg=237 cterm=NONE
+hi Cursor guifg=#3c4a4d guibg=#bda6cc guisp=#bda6cc gui=NONE ctermfg=239 ctermbg=182 cterm=NONE
+hi SpellLocal guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
+hi Error guifg=#A1A6A8 guibg=#f5f5c9 guisp=#f5f5c9 gui=NONE ctermfg=248 ctermbg=230 cterm=NONE
+hi PMenu guifg=#c4c4c4 guibg=#241c23 guisp=#241c23 gui=NONE ctermfg=251 ctermbg=235 cterm=NONE
+hi SpecialKey guifg=#5E6C70 guibg=NONE guisp=NONE gui=italic ctermfg=66 ctermbg=NONE cterm=NONE
+hi Constant guifg=#87afaf guibg=NONE guisp=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE
+hi Tag guifg=#37d47b guibg=NONE guisp=NONE gui=NONE ctermfg=78 ctermbg=NONE cterm=NONE
+hi String guifg=#3f966f guibg=NONE guisp=NONE gui=NONE ctermfg=72 ctermbg=NONE cterm=NONE
+hi PMenuThumb guifg=NONE guibg=#a4a6a8 guisp=#a4a6a8 gui=NONE ctermfg=NONE ctermbg=248 cterm=NONE
+hi MatchParen guifg=#b5b54b guibg=NONE guisp=NONE gui=bold ctermfg=143 ctermbg=NONE cterm=bold
+hi Repeat guifg=#3bcc7a guibg=NONE guisp=NONE gui=bold ctermfg=78 ctermbg=NONE cterm=bold
+hi SpellBad guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
+hi Directory guifg=#5faf87 guibg=NONE guisp=NONE gui=NONE ctermfg=72 ctermbg=NONE cterm=NONE
+hi Structure guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
+hi Macro guifg=#d160c4 guibg=NONE guisp=NONE gui=NONE ctermfg=170 ctermbg=NONE cterm=NONE
+hi Underlined guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
+hi DiffAdd guifg=NONE guibg=#193224 guisp=#193224 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
+hi TabLine guifg=#192224 guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=235 ctermbg=66 cterm=bold
+hi pythondecorator guifg=#d75faf guibg=NONE guisp=NONE gui=bold ctermfg=169 ctermbg=NONE cterm=bold
+hi shderef guifg=#ffffd7 guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+hi cursorim guifg=#192224 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
