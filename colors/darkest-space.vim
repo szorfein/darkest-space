@@ -1,3 +1,19 @@
+"    ▓█████▄           ██████  ██▓███   ▄▄▄       ▄████▄  ▓█████ 
+"    ▒██▀ ██▌        ▒██    ▒ ▓██░  ██▒▒████▄    ▒██▀ ▀█  ▓█   ▀ 
+"    ░██   █▌        ░ ▓██▄   ▓██░ ██▓▒▒██  ▀█▄  ▒▓█    ▄ ▒███   
+"    ░▓█▄   ▌          ▒   ██▒▒██▄█▓▒ ▒░██▄▄▄▄██ ▒▓▓▄ ▄██▒▒▓█  ▄ 
+"    ░▒████▓  ██▓    ▒██████▒▒▒██▒ ░  ░ ▓█   ▓██▒▒ ▓███▀ ░░▒████▒
+"     ▒▒▓  ▒  ▒▓▒    ▒ ▒▓▒ ▒ ░▒▓▒░ ░  ░ ▒▒   ▓▒█░░ ░▒ ▒  ░░░ ▒░ ░
+"     ░ ▒  ▒  ░▒     ░ ░▒  ░ ░░▒ ░       ▒   ▒▒ ░  ░  ▒    ░ ░  ░
+"     ░ ░  ░  ░      ░  ░  ░  ░░         ░   ▒   ░           ░   
+"       ░      ░           ░                 ░  ░░ ░         ░  ░
+"     ░        ░                                 ░               
+
+" darkest-space.vim -- vim colorscheme
+" Author: szorfein
+" Webpage: https://github.com/szorfein/darkest-space
+" Description: vim colorscheme, mainly use green|cyan and purple !
+
 set background=dark
 if version > 580
 	hi clear
@@ -26,7 +42,7 @@ hi DiffText guifg=NONE guibg=#008787 guisp=#008787 gui=NONE ctermfg=NONE ctermbg
 hi ErrorMsg guifg=#d7d7ff guibg=#8700af guisp=#8700af gui=NONE ctermfg=189 ctermbg=30 cterm=NONE
 hi Debug guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
 hi PMenuSbar guifg=NONE guibg=#848688 guisp=#848688 gui=NONE ctermfg=NONE ctermbg=102 cterm=NONE
-hi Identifier guifg=#d15e85 guibg=NONE guisp=NONE gui=bold ctermfg=67 ctermbg=NONE cterm=bold
+hi Identifier guifg=#5f87af guibg=NONE guisp=NONE gui=bold ctermfg=67 ctermbg=NONE cterm=bold
 hi SpecialChar guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
 hi Conditional guifg=#8787d7 guibg=NONE guisp=NONE gui=bold ctermfg=104 ctermbg=NONE cterm=bold
 hi StorageClass guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
