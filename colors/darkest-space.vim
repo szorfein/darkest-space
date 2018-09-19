@@ -25,7 +25,7 @@ endif
 set t_Co=256
 let g:colors_name = "darkest-space"
 
-hi Normal guifg=#afd7ff guibg=#262626 guisp=#262626 gui=NONE ctermfg=153 ctermbg=235 cterm=NONE
+hi Normal guifg=#afd7ff guibg=NONE guisp=NONE gui=NONE ctermfg=153 ctermbg=NONE cterm=NONE
 hi IncSearch guifg=#d75f5f guibg=#BD9800 guisp=#BD9800 gui=NONE ctermfg=235 ctermbg=167 cterm=NONE
 hi WildMenu guifg=NONE guibg=#A1A6A8 guisp=#A1A6A8 gui=NONE ctermfg=NONE ctermbg=248 cterm=NONE
 hi SignColumn guifg=#192224 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
@@ -48,7 +48,7 @@ hi Conditional guifg=#8787d7 guibg=NONE guisp=NONE gui=bold ctermfg=104 ctermbg=
 hi StorageClass guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
 hi Todo guifg=#ddddf0 guibg=#1d4c75 guisp=#1d4c75 gui=NONE ctermfg=255 ctermbg=6 cterm=NONE
 hi Special guifg=#00afaf guibg=NONE guisp=NONE gui=NONE ctermfg=37 ctermbg=NONE cterm=NONE
-hi LineNr guifg=#606060 guibg=#262626 guisp=#262626 gui=NONE ctermfg=241 ctermbg=235 cterm=NONE
+hi LineNr guifg=#606060 guibg=NONE guisp=NONE gui=NONE ctermfg=241 ctermbg=NONE cterm=NONE
 hi StatusLine guifg=#192224 guibg=#5fafaf guisp=#5fafaf gui=bold ctermfg=235 ctermbg=73 cterm=bold
 hi Label guifg=#BD9800 guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 hi PMenuSel guifg=#d9b6d9 guibg=#4f5956 guisp=#4f5956 gui=NONE ctermfg=182 ctermbg=240 cterm=NONE
