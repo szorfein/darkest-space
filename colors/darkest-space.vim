@@ -25,7 +25,7 @@ endif
 set t_Co=256
 let g:colors_name = "darkest-space"
 
-hi Normal guifg=#d4d4ff guibg=#141214 guisp=#141214 gui=NONE ctermfg=189 ctermbg=233 cterm=NONE
+hi Normal guifg=#d4d4ff guibg=NONE guisp=NONE gui=NONE ctermfg=189 ctermbg=NONE cterm=NONE
 hi IncSearch guifg=#000000 guibg=#6c5fad guisp=#6c5fad gui=NONE ctermfg=NONE ctermbg=61 cterm=NONE
 hi WildMenu guifg=NONE guibg=#A1A6A8 guisp=#A1A6A8 gui=NONE ctermfg=NONE ctermbg=248 cterm=NONE
 hi SignColumn guifg=#192224 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
