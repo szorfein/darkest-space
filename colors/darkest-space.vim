@@ -42,7 +42,7 @@ hi DiffText guifg=#e3e0e3 guibg=#403030 guisp=#403030 gui=NONE ctermfg=254 cterm
 hi ErrorMsg guifg=#e0e0bc guibg=#266361 guisp=#266361 gui=NONE ctermfg=187 ctermbg=23 cterm=NONE
 hi Debug guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
 hi PMenuSbar guifg=#486878 guibg=#210e21 guisp=#210e21 gui=NONE ctermfg=66 ctermbg=234 cterm=NONE
-hi Identifier guifg=#25688f guibg=NONE guisp=NONE gui=NONE ctermfg=24 ctermbg=NONE cterm=NONE
+hi Identifier guifg=#4578af guibg=NONE guisp=NONE gui=NONE ctermfg=24 ctermbg=NONE cterm=NONE
 hi SpecialChar guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
 hi Conditional guifg=#2a7a62 guibg=NONE guisp=NONE gui=bold ctermfg=6 ctermbg=NONE cterm=bold
 hi StorageClass guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
@@ -54,9 +54,9 @@ hi Label guifg=#BD9800 guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cte
 hi PMenuSel guifg=#f0ddf0 guibg=#543559 guisp=#543559 gui=NONE ctermfg=255 ctermbg=240 cterm=NONE
 hi Search guifg=#000000 guibg=#6a44a3 guisp=#6a44a3 gui=NONE ctermfg=NONE ctermbg=97 cterm=NONE
 hi Delimiter guifg=#5fd7ff guibg=NONE guisp=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-hi Statement guifg=#54e3bf guibg=NONE guisp=NONE gui=bold ctermfg=79 ctermbg=NONE cterm=bold
+hi Statement guifg=#54c0be guibg=NONE guisp=NONE gui=bold ctermfg=79 ctermbg=NONE cterm=bold
 hi SpellRare guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
-hi Comment guifg=#5f00af guibg=NONE guisp=NONE gui=italic ctermfg=55 ctermbg=NONE cterm=NONE
+hi Comment guifg=#5f4a9f guibg=NONE guisp=NONE gui=italic ctermfg=55 ctermbg=NONE cterm=NONE
 hi Character guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Float guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Number guifg=#f22484 guibg=#1c101c guisp=#1c101c gui=NONE ctermfg=198 ctermbg=234 cterm=NONE
@@ -88,7 +88,7 @@ hi PMenu guifg=#aba8ab guibg=#222e2e guisp=#222e2e gui=NONE ctermfg=248 ctermbg=
 hi SpecialKey guifg=#5E6C70 guibg=NONE guisp=NONE gui=italic ctermfg=66 ctermbg=NONE cterm=NONE
 hi Constant guifg=#af7acc guibg=NONE guisp=NONE gui=NONE ctermfg=140 ctermbg=NONE cterm=NONE
 hi Tag guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
-hi String guifg=#2bd6d6 guibg=#1a111a guisp=#1a111a gui=NONE ctermfg=44 ctermbg=234 cterm=NONE
+hi String guifg=#78d6d6 guibg=#2a212a guisp=#2a212a gui=NONE ctermfg=44 ctermbg=235 cterm=NONE
 hi PMenuThumb guifg=NONE guibg=#369688 guisp=#369688 gui=NONE ctermfg=NONE ctermbg=73 cterm=NONE
 hi MatchParen guifg=#BD9800 guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 hi Repeat guifg=#d91196 guibg=NONE guisp=NONE gui=bold ctermfg=162 ctermbg=NONE cterm=bold
