@@ -44,7 +44,7 @@ hi Debug guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cte
 hi PMenuSbar guifg=#486878 guibg=#210e21 guisp=#210e21 gui=NONE ctermfg=66 ctermbg=234 cterm=NONE
 hi Identifier guifg=#4578af guibg=NONE guisp=NONE gui=NONE ctermfg=24 ctermbg=NONE cterm=NONE
 hi SpecialChar guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
-hi Conditional guifg=#2a7a62 guibg=NONE guisp=NONE gui=bold ctermfg=6 ctermbg=NONE cterm=bold
+hi Conditional guifg=#2a8f72 guibg=NONE guisp=NONE gui=bold ctermfg=6 ctermbg=NONE cterm=bold
 hi StorageClass guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
 hi Todo guifg=#e7e7f0 guibg=#ad42ad guisp=#ad42ad gui=NONE ctermfg=255 ctermbg=133 cterm=NONE
 hi Special guifg=#7dcaf0 guibg=NONE guisp=NONE gui=NONE ctermfg=117 ctermbg=NONE cterm=NONE
