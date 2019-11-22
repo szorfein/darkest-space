@@ -59,10 +59,10 @@ hi SpellRare guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189
 hi Comment guifg=#5f4a9f guibg=NONE guisp=NONE gui=italic ctermfg=55 ctermbg=NONE cterm=NONE
 hi Character guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Float guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
-hi Number guifg=#f22484 guibg=#1c101c guisp=#1c101c gui=NONE ctermfg=198 ctermbg=234 cterm=NONE
+hi Number guifg=#c83b7d guibg=#1c101c guisp=#1c101c gui=NONE ctermfg=198 ctermbg=234 cterm=NONE
 hi Boolean guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
-hi Operator guifg=#77d183 guibg=NONE guisp=NONE gui=bold ctermfg=114 ctermbg=NONE cterm=bold
-hi CursorLine guifg=NONE guibg=#222E30 guisp=#222E30 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
+hi Operator guifg=#5a986d guibg=NONE guisp=NONE gui=bold ctermfg=114 ctermbg=NONE cterm=bold
+hi CursorLine guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=0 cterm=NONE
 hi TabLineFill guifg=#192224 guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=235 ctermbg=66 cterm=bold
 hi WarningMsg guifg=#A1A6A8 guibg=#712C80 guisp=#712C80 gui=NONE ctermfg=248 ctermbg=96 cterm=NONE
 hi VisualNOS guifg=#192224 guibg=#F9F9FF guisp=#F9F9FF gui=underline ctermfg=235 ctermbg=189 cterm=underline
@@ -106,5 +106,8 @@ hi cursorim guifg=#192224 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 cterm
 hi markdownLinkText guifg=#8700ff guibg=NONE guisp=NONE gui=NONE ctermfg=92 ctermbg=NONE cterm=NONE
 hi markdownUrl guifg=#5f87d7 guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
 hi markdownLinkDelimiter guifg=#5fffff guibg=NONE guisp=NONE gui=NONE ctermfg=87 ctermbg=NONE cterm=NONE
-hi markdownCodeBlock  guifg=#2bd6d6 guibg=#1a111a guisp=#1a111a gui=NONE ctermfg=44 ctermbg=234 cterm=NONE
-hi markdownCode guifg=#00d7d7 guibg=#1a111a guisp=#1a111a gui=NONE ctermfg=44 ctermbg=234 cterm=NONE
+hi markdownCodeBlock  guifg=#2bd6d6 guibg=NONE guisp=NONE gui=NONE ctermfg=44 ctermbg=0 cterm=NONE
+hi markdownCode guifg=#00d7d7 guibg=NONE guisp=NONE gui=NONE ctermfg=44 ctermbg=0 cterm=NONE
+
+" NerdTree
+hi NERDTreeOpenable guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=11 ctermbg=NONE cterm=NONE
